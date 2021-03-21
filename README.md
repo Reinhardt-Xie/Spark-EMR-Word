@@ -43,7 +43,7 @@ In this step, we will launch a sample cluster running the Spark job and terminat
 5. Copy over the contents from wordcount.py in this repo
 5. In wordcount.py change the input file s3 url to point to input.txt in your bucket, created above
 
-### Executing wordcount.py
+### Executing wordcount.py in terminal
 
 1. Go through the code in wordcount.py and checkout what it does
 2. Execute the script using "spark-submit wordcount.py | tee output.txt"
