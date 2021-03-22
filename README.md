@@ -2,7 +2,7 @@
 
 ### Create an Amazon S3 Bucket
 
-In this use case, we will use Amazon S3 bucket to store our Spark application jar, logs, input and output files.
+In this use case, we will use Amazon S3 bucket to store our Spark application - wordcount.py, logs, and input.
 
 1. Open the Amazon S3 console
 2. Choose Create bucket
@@ -16,8 +16,8 @@ In this use case, we will use Amazon S3 bucket to store our Spark application ja
 Now that our S3 bucket is created, we will upload the Spark application wordcount.py and an input file on which we will apply the wordcount.
 
 1. On the Amazon S3 console click on the bucket you just created
-2. Choose Create folder, enter the name of the folder (ex : tutorialEMR), the encryption setting (ex : None) and save
-3. Click on the folder you just created, then choose upload to upload the Spark application jar and the input text file on which you want to apply the wordcount
+2. Choose Create folder, enter the name of the folder, the encryption setting (ex : None) and save
+3. Click on the folder you just created, then choose upload to upload the Spark application wordcount.py and the input text file on which you want to apply the wordcount
 
 ### Create an Amazon EMR cluster & Submit the Spark Job
 
